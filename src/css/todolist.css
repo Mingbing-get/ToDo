@@ -1,0 +1,29 @@
+
+.tdhead li {
+    list-style: none;
+    float: left;
+}
+.tdhead a{
+    display: block;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 16px;
+    padding: 5px 10px;
+    border-bottom: 2px solid #eee;
+}
+.tdhead a:hover,
+.tdhead .active{
+    color: #1890ff;
+    border-bottom: 2px solid #1890ff;
+}
+
+.tditem {
+    cursor: pointer;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.tditem:hover {
+    background-color: #ddd;
+}
+.tdmt10 {
+    margin-top: 10px;
+}
