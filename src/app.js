@@ -10,7 +10,7 @@ import './css/app.css'
 
 export default class App extends React.Component{
 
-    render(){ // 新加注释
+    render(){
 
         return (
             <div className="appcontainer">
